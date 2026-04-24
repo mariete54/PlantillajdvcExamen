@@ -88,7 +88,7 @@ public class Pruebajdvc {
 	    }
 
 	    // 2. Comprobar que txt2 sea solo texto (letras y espacios)
-	    if (!txt1.getText().matches("^[a-z,A-Z]+$")) {
+	    if (!txt1.getText().matches("^[a-zA-Z]+$")) {
 	        JOptionPane.showMessageDialog(frame, "El segundo campo solo puede contener letras","Campo De Texto",JOptionPane.ERROR_MESSAGE);
 	        return false;
 	    }
